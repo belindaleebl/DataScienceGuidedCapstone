@@ -1,0 +1,22 @@
+﻿Big Mountain Resort recently added a new chairlift to their site. This new feature should add value to the resort, and thus raise their ticket prices, but the team was not confident in how much additional they should charge for ticket prices. Digging further, we realized that the ticket price has traditionally been set by the market average of competing resorts. This means that the distinguishing features specific to Big Mountain were not taken into account when setting price. There is potential that Big Mountain has been undercharging their lift tickets for quite some time! The decision was made to investigate further into the features of Big Mountain Resort compared to features of competing resorts to understand which features customers associate with high value, and thus, would pay a premium price for. The goal of this analysis is to determine the fair price for Big Mountian’s tickets based on feature instead of average market value. 
+
+
+For the analysis, we first looked at ticket prices and features associated with the resorts which helped us align features that generally demanded higher ticket prices. We found that the four features with the largest impact to ticket price are fast quads, number of runs, snow making, and vertical drop. 
+
+
+  
+
+        A model is built to associate cost to feature, and when tested, Big Mountain Resorts show a modeled ticket price of $95.87, while the current actual price is $81. The model price has a mean absolute error of around $10, which means that even accounting for error, Big Mountain’s ticket price has room to increase. 
+
+
+        We then looked at how adjusting different features at Big Mountain could impact the modeled ticket price, such as shutting down runs, or adding another chair lift. The data suggest that closing 1-2 runs will each impact ticket price, but the cost to close between 3-5 runs is the same. Thus if Big Mountain needed to close 3 runs, they could potentially close up to 5 without additional impact on ticket price. 
+
+
+  
+
+
+
+A few other scenarios were tested, but the takeaway is that Big Mountain resort has room to grow in ticket price. The model that predicts ticket price based on features available will be a good tool for Big Mountain as they consider adding chair lifts, or closing runs due to grooming/maintenance/snow conditions. 
+
+
+Some things to note, the model is set to predict the price for an adult weekend ticket. We did not explore how weekday tickets would change or be affected by the different features. It is also worth mentioning that Big Mountain’s current ticket price of $81 is already on the top end for resorts in Montana. We do not have a good understanding of what “similar” or “competing” resorts would mean. Do customers typically come from within Montana? Or are we competing for business with other states such as California or New York where their average ticket prices are higher, thus allowing Big Mountain to increase without pricing themselves out.
